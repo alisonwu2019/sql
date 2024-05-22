@@ -67,7 +67,6 @@ A logical data model must contain:
 - column names
 - relationship type
 
-
 Please do not pick the exact same tables that I have already diagramed. For example, you shouldn't diagram the relationship between `product` and `product_category`, but you could diagram `product` and `customer_purchases`.
 
 **A few hints**:
@@ -76,6 +75,3 @@ Please do not pick the exact same tables that I have already diagramed. For exam
 	- These are the tables that are connected
 	-  ![01_farmers_market_conceptual_model.png](./images/01_farmers_market_conceptual_model.png)
 - The column names can be found in a few spots (DB Schema window in the bottom right, the Database Structure tab in the main window by expanding each table entry, at the top of the Browse Data tab in the main window)
-
-Customer - Customer Purchase relationship
-![img_1.png](img_1.png)
