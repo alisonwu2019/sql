@@ -64,7 +64,8 @@ WITH total_sales AS
 
 SELECT
     market_date,
-    sales
+    sales,
+    'best day' as performance
 FROM
     ranked_sales
 WHERE
@@ -72,7 +73,8 @@ WHERE
 UNION
 SELECT
     market_date,
-    sales
+    sales,
+    'worst day' as performance
 FROM
     ranked_sales
 WHERE
